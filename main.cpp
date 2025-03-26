@@ -36,4 +36,7 @@ int main() {
    //test
     sean.location.changeLocation("bathroom");
     std::cout << sean.location.room << "\n";
+    /*
+    this is a test for git
+    */
 }
