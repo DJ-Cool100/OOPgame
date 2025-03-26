@@ -14,15 +14,26 @@ class character {
             }
             health = x;
     }
+
+    class Location {
+        public:
+            // string to store location, might change later
+            std::string room;
+        
+            void changeLocation(std::string x) {
+                if (x == "bedroom" || x == "bathroom" || x == "kitchen") {
+                    room = x;
+                }
+        }
+    }; 
+    Location location;
 };
 
-class location {
-    // string to store location, might change later
-    std::string room;
 
-};
 
 int main() {
-
-    return 0;
+   character sean;
+   //test
+    sean.location.changeLocation("bathroom");
+    std::cout << sean.location.room << "\n";
 }
