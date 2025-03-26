@@ -13,8 +13,11 @@ class character {
                 x = 0;
             }
             health = x;
-        }
+    }
+};
 
+class location {
+    
 };
 
 int main() {
