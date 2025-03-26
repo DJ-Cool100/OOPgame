@@ -17,7 +17,9 @@ class character {
 };
 
 class location {
-    
+    // string to store location, might change later
+    std::string room;
+
 };
 
 int main() {
