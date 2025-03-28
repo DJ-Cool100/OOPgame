@@ -62,11 +62,5 @@ class character {
 
 
 
-int main() {
-    // test
-   character sean;
-   sean.inventory.setItem("dog");
-   sean.inventory.clearItem();
-   sean.inventory.setItem("can");
-   sean.inventory.checkItem();
+    int main() {
 }
